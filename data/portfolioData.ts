@@ -1,8 +1,8 @@
 
 import { Project, Hackathon, Certification, Publication, SkillCategory } from '../types';
 
-export const developerResume = "/assests/Developer_Resume.pdf";
-export const dataResume = "/assests/Data_Resume.pdf";
+export const developerResume = "/assets/Developer_Resume.pdf";
+export const dataResume = "/assets/Data_Resume.pdf";
 
 export const skillCategories: SkillCategory[] = [
     {
@@ -98,12 +98,12 @@ export const hackathons: Hackathon[] = [
   {
     name: "TechSprint 2025 – Google Campus Edition",
     description: "Shortlisted in Top 20 teams out of 400+ registrations for developing an innovative SmartWallet vault-based solution.",
-    certificateLink: "/assests/GDG.pdf"
+    certificateLink: "/assets/GDG.pdf"
   },
 {
   name: "Google Cloud Agentic AI Day",
   description: "Participated in Google Cloud Agentic AI Day, developing AI-driven solutions for real-time event safety and crowd monitoring.",
-  certificateLink: "/assests/Hack2skill.png"
+  certificateLink: "/assets/Hack2skill.png"
 }
 ];
 
@@ -111,12 +111,12 @@ export const certifications: Certification[] = [
   {
     name: "Data Analytics Job Simulation",
     platform: "Accenture",
-    link: "./assets/accenture.pdf"
+    link: "/assets/accenture.pdf"
   },
   {
-    name: "Full Stack Web Development",
-    platform: "Meta",
-    link: "#"
+    name: "Database for Developers",
+    platform: "Oracle",
+    link: "/assets/Oracle.pdf"
   },
   {
     name: "Machine Learning Specialization",
