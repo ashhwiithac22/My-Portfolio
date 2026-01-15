@@ -5,39 +5,44 @@ export const developerResume = "/assests/Developer_Resume.pdf";
 export const dataResume = "/assests/Data_Resume.pdf";
 
 export const skillCategories: SkillCategory[] = [
+    {
+    title: "Programming Languages",
+    skills: ["Python", "Java", "C", "MySQL"]
+  },
+
   {
     title: "Frontend",
-    skills: ["React", "Angular", "TypeScript", "JavaScript", "Tailwind CSS", "Bootstrap"]
+    skills: ["React", "Angular", "TypeScript", "JavaScript", "CSS", "Bootstrap"]
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Express", "Java (JDBC/Swing)", "C", "MySQL", "MongoDB"]
+    skills: ["Node.js", "Express", "Java (JDBC/Swing)", "MongoDB"]
   },
   {
     title: "Data / Analytics",
-    skills: ["Python", "R", "Pandas", "NumPy", "Matplotlib", "Seaborn", "JAX", "Power BI", "Scikit-learn", "ML/NLP"]
+    skills: ["Python", "ML","NLP","DL","R", "Power BI", "JAX" ,"Pandas", "NumPy", "Matplotlib", "Seaborn","Scikit-learn"]
   }
 ];
 
 export const developerProjects: Project[] = [
   {
     title: "CodeBuddy Learning Platform",
-    description: "AI powered learning and Interview preparation platform using MERN stack and Gemini API.",
+    description: "AI powered learning and Interview preparation platform using MEAN stack and Gemini API.",
     technologies: ["Angular", "Node.js", "Express", "MongoDB", "Gemini API", "JWT"],
     githubLink: "https://github.com/ashhwiithac22/codebuddyapp",
     liveLink: "https://codebuddy-backend-oind.onrender.com/"
   },
   {
-    title: "Livelink Blood Bank",
+    title: "Blood Bank Management System",
     description: "Full-stack application streamlining blood donation tracking and hospital coordination.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+    technologies: ["React", "Node.js", "Express", "MongoDB","Nodemailer", "JWT"],
     githubLink: "https://github.com/ashhwiithac22/lifelink-bloodbank",
     liveLink: "https://lifelink-bloodbank.vercel.app/"
   },
   {
     title: "Ride Share Optimizer",
     description: "Python app using graph algorithms to optimize cost-efficient, multi-stop ride-sharing routes.",
-    technologies: ["Python", "Streamlit", "BFS", "Prim's Algorithm"],
+    technologies: ["Python", "Streamlit", "Dijkstra", "BFS", "Prim's Algorithm"],
     githubLink: "https://github.com/ashhwiithac22/RideShare-Optimizer",
     liveLink: "https://rideshareoptimizer.streamlit.app/"
   }
@@ -112,8 +117,12 @@ export const publications: Publication[] = [
 ];
 
 export const interests = [
-  { name: "Artificial Intelligence", icon: "🤖" },
-  { name: "Strategic Chess", icon: "♟️" },
-  { name: "Open Source", icon: "🚀" },
-  { name: "Financial Markets", icon: "📈" }
+  { name: "Full Stack Development", icon: " 💻 " },
+  { name: "Data Science & Analytics", icon: " 📊 " },
+  { name: "Machine Learning & Artificial Intelligence", icon: "🤖" },
+  { name: "Databases", icon: " 🗄️ " },
+  { name: "Generative AI & Agentic AI", icon: " 🧩 " },
+  { name: "Cloud Computing", icon: " ☁️ " },
+  { name: "Research & Problem Solving", icon: " 🔍  " },
+  
 ];

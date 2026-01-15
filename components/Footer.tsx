@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
           </a>
         </div>
         <p className="text-gray-500 text-sm">
-          &copy; {new Date().getFullYear()} Ashwitha C. Built with Passion & React.
+          &copy; {new Date().getFullYear()} Ashwitha C. Built with React.
         </p>
       </div>
     </footer>

@@ -13,7 +13,7 @@ const Interests: React.FC = () => {
           viewport={{ once: true }}
           className="text-4xl font-bold mb-16"
         >
-          Beyond the <span className="text-[#2563EB]">Terminal</span>
+          Core <span className="text-[#2563EB]">Interests</span>
         </motion.h2>
 
         <div className="flex flex-wrap justify-center gap-6">
