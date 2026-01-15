@@ -85,35 +85,33 @@ export const dataProjects: Project[] = [
   githubLink: "https://github.com/ashhwiithac22/student-dropout-prediction-ml",
   liveLink: "https://student-dropout-prediction-ml.streamlit.app/"
 },
-{
-  title: "Employee Burnout Prediction",
-  description: "Machine learning system predicting employee burnout risk using HR data, providing actionable insights and early interventions with models like Random Forest and XGBoost.",
-  technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "Matplotlib", "Seaborn"],
-  githubLink: "https://github.com/ashhwiithac22/Employee-Burnout-Prediction",
-  liveLink: "https://employee-burnout-prediction-using-ml.streamlit.app/"
-}
 
 
 ];
 
 export const hackathons: Hackathon[] = [
   {
-    name: "InnovateX Hackathon",
-    description: "Secured top 10 position for developing a decentralized identity solution.",
+    name: "EY Techathon 6.0",
+    description: "Shortlisted in Round 2 out of 1,83,253+ participants for developing a smart vehicle technology solution.",
     certificateLink: "#"
   },
   {
-    name: "CodeForGood 2023",
-    description: "Developed a platform for NGOs to track donor contributions in real-time.",
-    certificateLink: "#"
-  }
+    name: "TechSprint 2025 – Google Campus Edition",
+    description: "Shortlisted in Top 20 teams out of 400+ registrations for developing an innovative SmartWallet vault-based solution.",
+    certificateLink: "/assests/GDG.pdf"
+  },
+{
+  name: "Google Cloud Agentic AI Day",
+  description: "Participated in Google Cloud Agentic AI Day, developing AI-driven solutions for real-time event safety and crowd monitoring.",
+  certificateLink: "/assests/Hack2skill.png"
+}
 ];
 
 export const certifications: Certification[] = [
   {
-    name: "Google Data Analytics Professional",
-    platform: "Coursera",
-    link: "#"
+    name: "Data Analytics Job Simulation",
+    platform: "Accenture",
+    link: "./assets/accenture.pdf"
   },
   {
     name: "Full Stack Web Development",
