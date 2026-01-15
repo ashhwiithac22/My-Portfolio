@@ -42,7 +42,7 @@ const About: React.FC = () => {
              {/* Glow effect */}
             <div className="absolute -inset-4 bg-[#2563EB] rounded-full blur-3xl opacity-20"></div>
             <img
-              src="/assests/Ashwitha_C.jpeg"
+              src="/assets/Ashwitha_C.jpeg"
               alt="Ashwitha C"
               className="relative rounded-2xl object-cover w-full h-full border-2 border-white/10 shadow-2xl"
             />
