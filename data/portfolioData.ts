@@ -1,8 +1,8 @@
 
 import { Project, Hackathon, Certification, Publication, SkillCategory } from '../types';
 
-export const developerResume = "/resumes/developer_resume.pdf";
-export const dataResume = "/resumes/data_resume.pdf";
+export const developerResume = "/assests/Developer_Resume.pdf";
+export const dataResume = "/assests/Data_Resume.pdf";
 
 export const skillCategories: SkillCategory[] = [
   {

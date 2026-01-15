@@ -34,7 +34,7 @@ const Education: React.FC = () => {
               <div>
                 <h4 className="text-xl text-white font-medium">M.Sc. Decision & Computing Sciences</h4>
                 <p className="text-[#38BDF8]">Coimbatore Institute of Technology</p>
-                <p className="text-gray-500">2021 - 2026 (Integrated)</p>
+                <p className="text-gray-500">2023 - 2028 (Integrated)</p>
               </div>
               <div className="pt-4 border-t border-white/5">
                 <p className="text-gray-400 leading-relaxed">
