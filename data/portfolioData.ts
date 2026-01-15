@@ -45,14 +45,22 @@ export const developerProjects: Project[] = [
     technologies: ["Python", "Streamlit", "Dijkstra", "BFS", "Prim's Algorithm"],
     githubLink: "https://github.com/ashhwiithac22/RideShare-Optimizer",
     liveLink: "https://rideshareoptimizer.streamlit.app/"
-  }
+  },
+  {
+  title: "Customer Relationship Management (CRM) System",
+  description: "Java-based desktop CRM application enabling role-based user management, customer handling, order tracking, and transaction monitoring with a secure MySQL backend.",
+  technologies: ["Java", "Java Swing", "MySQL", "JDBC", "IntelliJ IDEA"],
+  githubLink: "https://github.com/ashhwiithac22/Customer_Realtionship_Management-System",
+  liveLink: null
+}
+
 ];
 
 export const dataProjects: Project[] = [
   {
     title: "Financial AI Analytics",
     description: "JAX and yFinance based platform for options pricing and implied volatility analysis.",
-    technologies: ["Python", "Pandas", "NumPy", "JAX", "yFinance", "Streamlit"],
+    technologies: ["JAX", "yFinance", "OpenAI API","Streamlit","Python", "Pandas", "NumPy", "Plotly"],
     githubLink: "https://github.com/ashhwiithac22/Financial-AI--Analytics-Platform",
     liveLink: "https://financial-ai--analytics-platform.streamlit.app/"
   },
@@ -66,10 +74,26 @@ export const dataProjects: Project[] = [
   {
     title: "SmartCivic Complaint Analyzer",
     description: "NLP-driven platform for real-time civic issue analysis using Multinomial Naive Bayes.",
-    technologies: ["Python", "TF-IDF", "Scikit-learn", "TextBlob", "Plotly"],
+    technologies: ["Python", "TF-IDF", "Scikit-learn","WordCloud","TextBlob", "Plotly", "MultiNomial Naive Bayes"],
     githubLink: "https://github.com/ashhwiithac22/Smart-Civic-Complaint-Analyzer-with-NLP",
     liveLink: "https://complaint-analyzer-using-nlp.streamlit.app/"
-  }
+  },
+  {
+  title: "Student Dropout Prediction System",
+  description: "Machine learning system predicting student dropout risk using 15 features, delivering actionable insights for early intervention and personalized learning paths with 81% accuracy and 0.87 AUC.",
+  technologies: ["Python", "Gradient Boosting", "Random Forest", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+  githubLink: "https://github.com/ashhwiithac22/student-dropout-prediction-ml",
+  liveLink: "https://student-dropout-prediction-ml.streamlit.app/"
+},
+{
+  title: "Employee Burnout Prediction",
+  description: "Machine learning system predicting employee burnout risk using HR data, providing actionable insights and early interventions with models like Random Forest and XGBoost.",
+  technologies: ["Python", "Pandas", "NumPy", "Scikit-learn", "XGBoost", "Matplotlib", "Seaborn"],
+  githubLink: "https://github.com/ashhwiithac22/Employee-Burnout-Prediction",
+  liveLink: "https://employee-burnout-prediction-using-ml.streamlit.app/"
+}
+
+
 ];
 
 export const hackathons: Hackathon[] = [
