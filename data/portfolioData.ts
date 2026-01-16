@@ -81,7 +81,27 @@ export const dataProjects: Project[] = [
     technologies: ["Python", "Gradient Boosting", "Random Forest", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     githubLink: "https://github.com/ashhwiithac22/student-dropout-prediction-ml",
     liveLink: "https://student-dropout-prediction-ml.streamlit.app/"
-  }
+  },
+  {
+  title: "Employee Burnout Risk Analysis Dashboard",
+  description: "Machine learning–based dashboard for predicting employee burnout risk using HR data, combining EDA, feature engineering, and multiple ML models with explainability to support proactive workforce well-being decisions.",
+  technologies: [
+    "Python",
+    "Logistic Regression",
+    "Decision Tree",
+    "Random Forest",
+    "XGBoost",
+    "Scikit-learn",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "Streamlit"
+  ],
+  githubLink: "https://github.com/ashhwiithac22/Employee-Burnout-Prediction",
+  liveLink: "https://employee-burnout-prediction-using-ml.streamlit.app/"
+}
+
 ];
 
 export const hackathons: Hackathon[] = [
@@ -128,6 +148,21 @@ export const certifications: Certification[] = [
     platform: "JPMORGAN CHASE & CO",
     link: "/assets/JPMORGAN CHASE.pdf"
   },
+   {
+    name: "Bug Bounty",
+    platform: "Prompt Infotech",
+    link: "/assets/BugBounty.pdf"
+  },
+     {
+    name: "Cyber Security & Privacy",
+    platform: "NPTEL",
+    link: "/assets/NPTEL.pdf"
+  },
+       {
+    name: "Cyber Security Internship (3 Months)",
+    platform: "Prompt Infotech",
+    link: "/assets/Prompt Infotech.png"
+  },
   {
     name: "Digital Marketing",
     platform: "Google",
@@ -158,5 +193,11 @@ export const interests = [
   { name: "Databases", icon: "🗄️" },
   { name: "Generative AI & Agentic AI", icon: "🧩" },
   { name: "Cloud Computing", icon: "☁️" },
-  { name: "Research & Problem Solving", icon: "🔍" }
+  { name: "Bug Hunting", icon: "🐞" },
+  {name: "Cyber Security",icon: " 🕵 "},
+  { name: "Research & Problem Solving", icon: "🔍" },
+
+
+  
+
 ];
