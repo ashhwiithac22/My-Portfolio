@@ -5,9 +5,9 @@ import { SiLeetcode, SiGeeksforgeeks, SiHackerrank } from 'react-icons/si';
 
 const CodingProfiles: React.FC = () => {
   const profiles = [
-    { name: 'LeetCode', icon: <SiLeetcode />, color: '#FFA116', link: 'https://leetcode.com/u/ashwitha_c/' },
-    { name: 'GeeksforGeeks', icon: <SiGeeksforgeeks />, color: '#2F8D46', link: 'https://www.geeksforgeeks.org/user/ashhwiithac22/' },
-    { name: 'HackerRank', icon: <SiHackerrank />, color: '#2EC866', link: 'https://www.hackerrank.com/profile/ashhwiithac22' }
+    { name: 'LeetCode', icon: <SiLeetcode />, color: '#FFA116', link: 'https://leetcode.com/u/ashhwiithac22/' },
+    { name: 'GeeksforGeeks', icon: <SiGeeksforgeeks />, color: '#2F8D46', link: 'https://www.geeksforgeeks.org/profile/ashwithacax7l' },
+    { name: 'HackerRank', icon: <SiHackerrank />, color: '#2EC866', link: 'https://www.hackerrank.com/profile/ashwithacchandru' }
   ];
 
   return (
