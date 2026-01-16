@@ -1,20 +1,10 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## 📌 About My Portfolio
 
-# Run and deploy your AI Studio app
+This is my personal portfolio website developed using **React + Vite**.  
+It acts as a single platform to showcase my **profile, technical skills, projects, research publications, certificates, coding profiles, and contact details**.
 
-This contains everything you need to run your app locally.
+The portfolio is designed with a **clean, modern, and responsive UI**, ensuring a smooth user experience across all devices. It reflects my interest in **full-stack development, problem-solving, and continuous learning**.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1Ns95jj4-OmMRiD9roEszPISN3jG1ioGf
+🔗 **Live Portfolio:**  
+https://ashwithacportfolio.netlify.app/
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
