@@ -55,7 +55,7 @@ export const developerProjects: Project[] = [
 
 export const dataProjects: Project[] = [
   {
-    title: "Financial AI Analytics",
+    title: "AI - Powered Option Pricing Platform",
     description: "JAX and yFinance based platform for options pricing and implied volatility analysis.",
     technologies: ["JAX", "yFinance", "OpenAI API", "Streamlit", "Python", "Pandas", "NumPy", "Plotly"],
     githubLink: "https://github.com/ashhwiithac22/Financial-AI--Analytics-Platform",
