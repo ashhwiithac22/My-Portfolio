@@ -24,6 +24,22 @@ export const skillCategories: SkillCategory[] = [
 
 export const developerProjects: Project[] = [
   {
+  title: "SafetyTrack – Smart Journey Safety Application",
+  description: "Android journey safety app that automatically shares live GPS location via SMS, triggers SOS alerts, and detects voice-based emergency keywords to notify trusted contacts during travel.",
+  technologies: [
+    "Java",
+    "Android Studio",
+    "Firebase Auth",
+    "Firebase Firestore",
+    "Fused Location Provider API",
+    "Android SmsManager",
+    "SpeechRecognizer API",
+    "XML Layouts"
+  ],
+  liveLink: "#",
+  githubLink: "https://github.com/ashhwiithac22/SafetyTrack_MobileApp",
+},
+  {
     title: "CodeBuddy Learning Platform",
     description: "AI powered learning and Interview preparation platform using MEAN stack and Gemini API.",
     technologies: ["Angular", "Node.js", "Express", "MongoDB", "Gemini API", "JWT"],
