@@ -18,7 +18,11 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: "Data / Analytics",
-    skills: ["Python", "ML", "NLP", "DL", "R", "Power BI", "JAX", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn"]
+    skills: ["Python", "ML", "NLP", "DL", "RAG","LangChain","R", "Power BI", "JAX",]
+  },
+  {
+    title: "Cloud & Devops",
+    skills: ["Jenkins", "SonarQube", "GCP", "Docker", "Kubernetes","CI/CD"]
   }
 ];
 
