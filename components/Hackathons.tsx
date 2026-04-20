@@ -10,7 +10,7 @@ const Hackathons: React.FC = () => {
       <div className="container mx-auto px-6">
         <h2 className="text-3xl font-bold mb-16 flex items-center justify-center space-x-4">
           <FaTrophy className="text-[#2563EB]" />
-          <span>Hackathons & <span className="text-[#2563EB]">Competitions</span></span>
+          <span>Hackathons & <span className="text-[#2563EB]">Achievements</span></span>
         </h2>
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {hackathons.map((h, idx) => (

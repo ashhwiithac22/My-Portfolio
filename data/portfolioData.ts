@@ -18,15 +18,27 @@ export const skillCategories: SkillCategory[] = [
   },
   {
     title: "Data / Analytics",
-    skills: ["Python", "ML", "NLP", "DL", "RAG","LangChain","R", "Power BI", "JAX",]
+    skills: ["Python", "Pandas","ML","SQL", "R", "Power BI", "JAX",]
   },
+    {
+    title: "Artificial Intelligence / Frameworks",
+    skills: ["NLP","DL","RAG","LangChain","Hugging Face"]
+  },
+
   {
     title: "Cloud & Devops",
-    skills: ["Jenkins", "SonarQube", "GCP", "Docker", "Kubernetes","CI/CD"]
+    skills: ["AWS","Linux", "Jenkins", "SonarQube", "Docker", "Kubernetes","CI/CD Pipelines"]
   }
 ];
 
 export const developerProjects: Project[] = [
+    {
+    title: "Blood Bank Management System",
+    description: "Full-stack application streamlining blood donation tracking and hospital coordination.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "Nodemailer", "JWT"],
+    githubLink: "https://github.com/ashhwiithac22/lifelink-bloodbank",
+    liveLink: "https://lifelink-bloodbank.vercel.app/"
+  },
   {
   title: "SafetyTrack – Smart Journey Safety Application",
   description: "Android journey safety app that automatically shares live GPS location via SMS, triggers SOS alerts, and detects voice-based emergency keywords to notify trusted contacts during travel.",
@@ -43,19 +55,34 @@ export const developerProjects: Project[] = [
   liveLink: "#",
   githubLink: "https://github.com/ashhwiithac22/SafetyTrack_MobileApp",
 },
+{
+  title: "Adversarial AI Firewall – DevOps & AWS Deployment Pipeline",
+  description: "Built an end-to-end CI/CD pipeline and cloud deployment. Integrated Jenkins, SonarQube, Docker, Kubernetes, and ArgoCD for automation and scalability. Deployed on AWS (EC2, S3, ECR, CloudFront, IAM, VPC) with real-time monitoring using CloudWatch.",
+  technologies: [
+    "Jenkins",
+    "SonarQube",
+    "Docker",
+    "Kubernetes",
+    "ArgoCD",
+    "Ansible",
+    "AWS EC2",
+    "AWS S3",
+    "AWS ECR",
+    "AWS CloudFront",
+    "AWS CloudWatch",
+    "FastAPI",
+    "React",
+    "PyTorch"
+  ],
+  githubLink: "https://github.com/ashhwiithac22/Complete-CI-CD-pipeline-for-drone-defense-system",
+  liveLink: null
+},
   {
     title: "CodeBuddy Learning Platform",
     description: "AI powered learning and Interview preparation platform using MEAN stack and Gemini API.",
     technologies: ["Angular", "Node.js", "Express", "MongoDB", "Gemini API", "JWT"],
     githubLink: "https://github.com/ashhwiithac22/codebuddyapp",
     liveLink: "https://codebuddy-backend-oind.onrender.com/"
-  },
-  {
-    title: "Blood Bank Management System",
-    description: "Full-stack application streamlining blood donation tracking and hospital coordination.",
-    technologies: ["React", "Node.js", "Express", "MongoDB", "Nodemailer", "JWT"],
-    githubLink: "https://github.com/ashhwiithac22/lifelink-bloodbank",
-    liveLink: "https://lifelink-bloodbank.vercel.app/"
   },
   {
     title: "Ride Share Optimizer",
@@ -75,18 +102,33 @@ export const developerProjects: Project[] = [
 
 export const dataProjects: Project[] = [
   {
-    title: "AI - Powered Option Pricing Platform",
-    description: "JAX and yFinance based platform for options pricing and implied volatility analysis.",
-    technologies: ["JAX", "yFinance", "OpenAI API", "Streamlit", "Python", "Pandas", "NumPy", "Plotly"],
-    githubLink: "https://github.com/ashhwiithac22/Financial-AI--Analytics-Platform",
-    liveLink: "https://financial-ai--analytics-platform.streamlit.app/"
-  },
-  {
     title: "Phishing URL Detector",
     description: "XGBoost-based detection system achieving 86.6% accuracy on 10,000 URLs.",
     technologies: ["Python", "XGBoost", "SVM", "Scikit-learn", "Streamlit"],
     githubLink: "https://github.com/ashhwiithac22/phishing-url-detector-application",
     liveLink: "https://phishing-url-classification.streamlit.app/"
+  },
+  {
+  title: "Adversarial AI Firewall for Military Drones",
+  description: "Deep learning–based system that detects adversarial patches in drone imagery, combining a ResNet-50 victim model with a custom CNN firewall to classify images as CLEAN or ATTACK and prevent misleading Drone predictions.",
+  technologies: [
+    "PyTorch",
+    "ResNet-50",
+    "Custom CNN",
+    "OpenCV",
+    "FastAPI",
+    "React",
+    "Feature Engineering",
+    "Image Processing"
+  ],
+  githubLink: "https://github.com/ashhwiithac22/Adversarial_Patch_Detection_for_Military_Drones",
+},
+  {
+    title: "AI - Powered Option Pricing Platform",
+    description: "JAX and yFinance based platform for options pricing and implied volatility analysis.",
+    technologies: ["JAX", "yFinance", "OpenAI API", "Streamlit", "Python", "Pandas", "NumPy", "Plotly"],
+    githubLink: "https://github.com/ashhwiithac22/Financial-AI--Analytics-Platform",
+    liveLink: "https://financial-ai--analytics-platform.streamlit.app/"
   },
   {
     title: "SmartCivic Complaint Analyzer",
@@ -128,7 +170,7 @@ export const hackathons: Hackathon[] = [
   {
     name: "EY Techathon 6.0",
     description: "Shortlisted in Round 2 out of 1,83,253+ participants for developing a smart vehicle technology solution.",
-    certificateLink: "#"
+    certificateLink: "/assets/EY_Techathon_Round2.pdf"
   },
   {
     name: "TechSprint 2025 – Google Campus Edition",
@@ -139,7 +181,12 @@ export const hackathons: Hackathon[] = [
     name: "Google Cloud Agentic AI Day",
     description: "Participated in Google Cloud Agentic AI Day, developing AI-driven solutions for real-time event safety and crowd monitoring.",
     certificateLink: "/assets/Hack2skill.png"
-  }
+  },
+  {
+  name: "Google Cloud Study Jams 2025",
+  description: "Successfully completed Google Cloud Study Jams 2025, gaining hands-on experience in cloud technologies and secured 11th rank among participants.",
+  certificateLink: "/assets/Google_Cloud_Study_Jam.png"
+}
 ];
 
 export const certifications: Certification[] = [
@@ -213,8 +260,8 @@ export const interests = [
   { name: "Databases", icon: "🗄️" },
   { name: "Generative AI & Agentic AI", icon: "🧩" },
   { name: "Cloud Computing", icon: "☁️" },
+  {name: "DevOps",icon: " ♾️ "},
   { name: "Bug Hunting", icon: "🐞" },
-  {name: "Cyber Security",icon: " 🕵 "},
   { name: "Research & Problem Solving", icon: "🔍" },
 
 
