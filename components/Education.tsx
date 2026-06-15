@@ -45,7 +45,7 @@ const Education: React.FC = () => {
               <div className="pt-4 border-t border-white/5">
                 <p className="text-gray-400 leading-relaxed">
                   Focusing on advanced computing, data analytics, and decision systems.
-                  Current CGPA: <span className="text-white font-bold">9.17</span>
+                  Current CGPA: <span className="text-white font-bold">9.25</span>
                 </p>
               </div>
             </div>
