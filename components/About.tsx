@@ -15,7 +15,7 @@ const About: React.FC = () => {
           className="space-y-6"
         >
           <div className="space-y-2">
-            <h2 className="text-[#38BDF8] font-semibold tracking-widest uppercase">Developer + Data Background</h2>
+            <h2 className="text-[#38BDF8] font-semibold tracking-widest uppercase">Software Developer | AI, Data Analytics, Cloud & DevOps</h2>
             <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
               Ashwitha C
             </h1>
