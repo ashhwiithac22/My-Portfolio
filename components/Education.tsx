@@ -57,7 +57,7 @@ const Education: React.FC = () => {
             viewport={{ once: true }}
             className="flex flex-col items-center justify-center"
           >
-            <h3 className="text-2xl font-semibold mb-6">Download Resume</h3>
+            <h3 className="text-2xl font-semibold mb-6">Resume</h3>
 
             <a
               href={Resume}
@@ -67,7 +67,7 @@ const Education: React.FC = () => {
             >
               <FaFileDownload className="text-4xl text-[#2563EB] group-hover:scale-110 transition-transform" />
               <span className="font-semibold text-center uppercase tracking-wider text-sm">
-                Download Resume
+                View Resume
               </span>
             </a>
           </motion.div>
