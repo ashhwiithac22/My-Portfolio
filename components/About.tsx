@@ -25,7 +25,7 @@ const About: React.FC = () => {
             Passionate about building ML-driven, data-centric solutions and modern web applications that solve real-world problems.
           </p>
           <div className="flex space-x-6">
-            <a href="https://github.com/ashhwiithac22" target="_blank" className="text-3xl text-gray-400 hover:text-[#2563EB] transition-colors"><FaGithub /></a>
+            <a href="https://github.com/ashwithachandru" target="_blank" className="text-3xl text-gray-400 hover:text-[#2563EB] transition-colors"><FaGithub /></a>
             <a href="https://www.linkedin.com/in/ashwitha-c/" target="_blank" className="text-3xl text-gray-400 hover:text-[#2563EB] transition-colors"><FaLinkedin /></a>
             <a href="mailto:ashwithac22@gmail.com" className="text-3xl text-gray-400 hover:text-[#2563EB] transition-colors"><FaEnvelope /></a>
           </div>
