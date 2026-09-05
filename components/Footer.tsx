@@ -16,7 +16,7 @@ const Footer: React.FC = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/ashhwiithac22"
+            href="https://github.com/ashwithachandru"
             target="_blank"
             className="text-4xl text-gray-400 hover:text-white hover:drop-shadow-[0_0_8px_white] transition-all"
           >
